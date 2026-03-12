@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from "react";
 
 const CLAUDE_MODEL = "claude-sonnet-4-20250514";
-const GEMINI_API_KEY = "AIzaSyCS8tB47vvbm7O5m-t1rWwbHbt5uL5gKNQ";
+const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_KEY;
 const GOOGLE_CLIENT_ID = "393667644405-gkm4tuq61hkh3sg89pr81kqkjl9dlooj.apps.googleusercontent.com";
 const SCOPES = "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/documents";
 
